@@ -1,0 +1,35 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+}
+
+.iconContact {
+  margin-right: 8px;
+  color: #007bff;
+  vertical-align: middle;
+}
+
+.btnDelete {
+  background-color: #ff4d4d;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 8px 12px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.btnDelete:hover {
+  background-color: #e60000;
+}
